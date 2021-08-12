@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Register Result</title>
+</head>
+<body>
+    <div class="container">
+        <!-- <a href="Back" class="btn btn-primary">Back</a> -->
+        <form action="" method="" class="login-email">
+            <p class="login-text" style="font-size: 2rem; font-weight: 800;">Register</p>
+			<div class="input-group">
+                <input type="text" placeholder="Name" name="name" id="name" required>
+			</div>
+			<div class="input-group">
+                <input type="text" placeholder="Institude" name="institude" id="institude"  required>
+			</div>
+			<div class="input-group">
+                <input type="number" placeholder="Age" name="age" id="age" required>
+            </div>
+            <div class="input-group">
+                <input type="text" placeholder="Result" name="result" id="result" required>
+			</div>
+			<div class="input-group">
+                <button onclick="insertResult()" class="btn">Insert Result</button>
+			</div>
+		</form>
+        <div class="backMainDiv">
+        <a href="index.html" class="back">Back</a>
+        </div>
+	</div>
+
+<script src="app.js"></script>
+</body>
+</html>

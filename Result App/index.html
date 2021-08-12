@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleindex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+    <div class="heading">
+    <h1>Results of student</h1>
+    <a href="createResult.html" class="btn btn-primary">Create Result</a>
+    <div class="input-group my-3 ">
+        <input type="text" class="form-control" placeholder="Enter RollNo of Student to Search" aria-label="Student's RollNo" aria-describedby="button-addon2">
+        <button class="btn btn-primary rounded" class="search" type="button" id="button-addon2">Search</button>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------- -->
+    <div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header bg-transparent border-success">Header</div>
+        <div class="card-body text-success">
+          <h5 class="card-title">Name: <p class="card-text"  id="name"></p></h5>
+          <p class="card-text">Institude: <p class="card-text"  id="institude"></p></p>
+          <p class="card-text">Age: <p class="card-text"  id="age"></p></p>
+          <p class="card-text">Result: <p class="card-text"  id="result"></p></p>
+          <p class="card-text">status: <p class="card-text"  id="status"></p></p>
+        </div>
+        <div class="card-footer bg-transparent border-success">Footer</div>
+      </div>
+    <!-- ----------------------------------------------------- -->
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>
