@@ -15,25 +15,38 @@
         <form action="" method="" class="login-email">
             <p class="login-text" style="font-size: 2rem; font-weight: 800;">Register</p>
 			<div class="input-group">
-                <input type="text" placeholder="Name" name="name" id="name" required>
+                <input type="text" placeholder="Name" name="name" id="firstname1" required>
 			</div>
 			<div class="input-group">
-                <input type="text" placeholder="Institude" name="institude" id="institude"  required>
+                <input type="text" placeholder="Institude" name="institude" id="institude1"  required>
 			</div>
 			<div class="input-group">
-                <input type="number" placeholder="Age" name="age" id="age" required>
+                <input type="number" placeholder="Age" name="age" id="age1" required>
             </div>
             <div class="input-group">
-                <input type="text" placeholder="Result" name="result" id="result" required>
+                <input type="text" placeholder="Result" name="result" id="result1" required>
 			</div>
 			<div class="input-group">
-                <button onclick="insertResult()" class="btn">Insert Result</button>
+                <button onclick="insertResult()" onmouseover="insertResult()" class="btn">Insert Result</button>
 			</div>
 		</form>
         <div class="backMainDiv">
         <a href="index.html" class="back">Back</a>
         </div>
 	</div>
+
+
+	<div class="card border-success mb-3" style="max-width: 18rem;">
+        <div class="card-header bg-transparent border-success">Header</div>
+        <div class="card-body text-success">
+          <h5 class="card-title" id="firstname">Name: </h5>
+          <p class="card-text" id="institude">Institude: </p>
+          <p class="card-text" id="age">Age: </p>
+          <p class="card-text" id="result">Result: </p>
+          <p class="card-text">status: <p class="card-text"  id="status"></p></p>
+        </div>
+        <div class="card-footer bg-transparent border-success">Footer</div>
+      </div>
 
 <script src="app.js"></script>
 </body>
